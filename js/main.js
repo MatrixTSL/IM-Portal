@@ -258,16 +258,16 @@ const resources = {
                 <div class="sow-head">
                     <div>Week</div><div>Lesson/Session</div><div>Intended learning outcomes</div><div>Methodologies</div><div>Assessment for learning</div>
                 </div>
-                <div class="sow-row"><div><strong>Week 1</strong></div><div>Intro + WS1–2</div><div>Closed‑loop flow, E‑Stop</div><div>Guided</div><div>Worksheet check</div></div>
-                <div class="sow-row"><div><strong>Week 2</strong></div><div>WS3–5</div><div>Status LEDs, PLC I/O, HMI</div><div>Discovery</div><div>Observation</div></div>
-                <div class="sow-row"><div><strong>Week 3</strong></div><div>WS6–7</div><div>Pump & valve behaviour</div><div>Guided → fault‑led</div><div>Practical notes</div></div>
-                <div class="sow-row"><div><strong>Week 4</strong></div><div>WS8–9</div><div>Float & proximity sensors</div><div>Fault‑led</div><div>Worksheet</div></div>
-                <div class="sow-row"><div><strong>Week 5</strong></div><div>WS10–11</div><div>Flow & temperature sensors</div><div>Discovery</div><div>Mini‑quiz</div></div>
-                <div class="sow-row"><div><strong>Week 6</strong></div><div>WS12–13</div><div>Digital vs analogue sensors</div><div>Guided</div><div>Worksheet review</div></div>
-                <div class="sow-row"><div><strong>Week 7</strong></div><div>Random Faults</div><div>Fault‑finding via I/O screen</div><div>Fault‑led</div><div>Observation</div></div>
-                <div class="sow-row"><div><strong>Week 8</strong></div><div>Scenarios 1–4</div><div>Realistic simulation</div><div>Scenario‑based</div><div>Performance notes</div></div>
-                <div class="sow-row"><div><strong>Week 9</strong></div><div>Scenarios 5–8</div><div>Realistic simulation</div><div>Scenario‑based</div><div>Performance notes</div></div>
-                <div class="sow-row"><div><strong>Week 10</strong></div><div>Review & Assessment</div><div>Practical + written assessment</div><div>Mixed</div><div>Summative</div></div>
+                <div class="sow-row"><div><strong>Week 1</strong></div><div>Intro + WS1–2</div><div>Understand closed‑loop flow principles and E‑Stop safety.</div><div>Guided demo + worksheet tasks.</div><div>Worksheet completion + safety Q&A.</div></div>
+                <div class="sow-row"><div><strong>Week 2</strong></div><div>WS3–5</div><div>Interpret status LEDs, PLC I/O, and HMI navigation.</div><div>Discovery lab + peer discussion.</div><div>Observation checklist.</div></div>
+                <div class="sow-row"><div><strong>Week 3</strong></div><div>WS6–7</div><div>Analyse pump/valve behaviour and control response.</div><div>Guided then fault‑led tasks.</div><div>Practical notes + instructor feedback.</div></div>
+                <div class="sow-row"><div><strong>Week 4</strong></div><div>WS8–9</div><div>Use float and proximity sensors for diagnostics.</div><div>Fault‑led investigations.</div><div>Worksheet evidence.</div></div>
+                <div class="sow-row"><div><strong>Week 5</strong></div><div>WS10–11</div><div>Apply flow & temperature sensor readings.</div><div>Discovery tasks + lab practice.</div><div>Mini‑quiz + observations.</div></div>
+                <div class="sow-row"><div><strong>Week 6</strong></div><div>WS12–13</div><div>Compare digital vs analogue sensing for maintenance.</div><div>Guided instruction + experiments.</div><div>Worksheet review.</div></div>
+                <div class="sow-row"><div><strong>Week 7</strong></div><div>Random Faults</div><div>Diagnose faults using I/O and HMI screens.</div><div>Fault‑led drills.</div><div>Instructor observation.</div></div>
+                <div class="sow-row"><div><strong>Week 8</strong></div><div>Scenarios 1–4</div><div>Apply troubleshooting in realistic scenarios.</div><div>Scenario‑based tasks.</div><div>Performance notes.</div></div>
+                <div class="sow-row"><div><strong>Week 9</strong></div><div>Scenarios 5–8</div><div>Handle complex simulation faults.</div><div>Scenario‑based tasks.</div><div>Performance notes.</div></div>
+                <div class="sow-row"><div><strong>Week 10</strong></div><div>Review & Assessment</div><div>Demonstrate full diagnostic workflow.</div><div>Mixed review + assessment.</div><div>Summative practical & written.</div></div>
             </div>
         `
     },
