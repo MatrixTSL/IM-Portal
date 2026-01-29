@@ -176,13 +176,6 @@ const resources = {
                     <div>Summative assessment</div>
                 </div>
             </div>
-            <style>
-                .sow-table { display:grid; gap:0.75rem; margin-top:1rem; }
-                .sow-head { display:grid; grid-template-columns: 0.6fr 1.2fr 1.7fr 1fr 1fr; gap:0.6rem; background:rgba(212,165,116,0.15); border:1px solid rgba(212,165,116,0.4); padding:0.7rem; border-radius:10px; font-size:0.9rem; font-weight:700; color:#fff; }
-                .sow-row { display:grid; grid-template-columns: 0.6fr 1.2fr 1.7fr 1fr 1fr; gap:0.6rem; background:rgba(15,23,42,0.9); border:1px solid rgba(79,182,227,0.25); padding:0.8rem; border-radius:10px; font-size:0.9rem; line-height:1.4; }
-                .sow-row strong { color:#fff; }
-                @media (max-width: 900px) { .sow-row, .sow-head { grid-template-columns: 1fr; } }
-            </style>
         `
     },
 
