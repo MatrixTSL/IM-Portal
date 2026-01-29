@@ -88,6 +88,9 @@ const resources = {
             <h3>Suggested Delivery & Pacing (12 Weeks)</h3>
             <p><strong>Delivery modes:</strong> Discovery (learner investigation) and Guided (teacher‑led).</p>
             <div class="sow-table">
+                <div class="sow-head">
+                    <div>Week</div><div>Lesson/Session</div><div>Intended learning outcomes</div><div>Methodologies</div><div>Assessment for learning</div>
+                </div>
                 <div class="sow-row">
                     <div><strong>Week 1</strong></div>
                     <div>Introduction & Safety</div>
@@ -174,8 +177,11 @@ const resources = {
                 </div>
             </div>
             <style>
-                .sow-table { display:grid; gap:0.6rem; }
-                .sow-row { display:grid; grid-template-columns: 0.7fr 1.2fr 1.6fr 0.9fr 1fr; gap:0.6rem; background:rgba(79,182,227,0.08); border:1px solid rgba(79,182,227,0.25); padding:0.6rem; border-radius:8px; font-size:0.9rem; }
+                .sow-table { display:grid; gap:0.75rem; margin-top:1rem; }
+                .sow-head { display:grid; grid-template-columns: 0.6fr 1.2fr 1.7fr 1fr 1fr; gap:0.6rem; background:rgba(212,165,116,0.15); border:1px solid rgba(212,165,116,0.4); padding:0.7rem; border-radius:10px; font-size:0.9rem; font-weight:700; color:#fff; }
+                .sow-row { display:grid; grid-template-columns: 0.6fr 1.2fr 1.7fr 1fr 1fr; gap:0.6rem; background:rgba(15,23,42,0.9); border:1px solid rgba(79,182,227,0.25); padding:0.8rem; border-radius:10px; font-size:0.9rem; line-height:1.4; }
+                .sow-row strong { color:#fff; }
+                @media (max-width: 900px) { .sow-row, .sow-head { grid-template-columns: 1fr; } }
             </style>
         `
     },
@@ -256,6 +262,9 @@ const resources = {
             <p><strong>A scheme of work is a structured plan that breaks a subject into sequenced lessons over a set period.</strong> It outlines what is taught, in what order, and roughly how long each part takes. It includes learning objectives, topics, key activities, resources, and assessment points.</p>
             <h3>Suggested Delivery & Pacing (10 Weeks)</h3>
             <div class="sow-table">
+                <div class="sow-head">
+                    <div>Week</div><div>Lesson/Session</div><div>Intended learning outcomes</div><div>Methodologies</div><div>Assessment for learning</div>
+                </div>
                 <div class="sow-row"><div><strong>Week 1</strong></div><div>Intro + WS1–2</div><div>Closed‑loop flow, E‑Stop</div><div>Guided</div><div>Worksheet check</div></div>
                 <div class="sow-row"><div><strong>Week 2</strong></div><div>WS3–5</div><div>Status LEDs, PLC I/O, HMI</div><div>Discovery</div><div>Observation</div></div>
                 <div class="sow-row"><div><strong>Week 3</strong></div><div>WS6–7</div><div>Pump & valve behaviour</div><div>Guided → fault‑led</div><div>Practical notes</div></div>
@@ -339,6 +348,9 @@ const resources = {
             <h3>Worksheet‑Based Pacing (CP6211)</h3>
             <p>Each worksheet is designed for approximately <strong>40–60 minutes</strong> delivery time.</p>
             <div class="sow-table">
+                <div class="sow-head">
+                    <div>Week/Lesson</div><div>Lesson/Session</div><div>Intended learning outcomes</div><div>Methodologies</div><div>Assessment for learning</div>
+                </div>
                 <div class="sow-row"><div><strong>Lesson 1</strong></div><div>Basic Outputs</div><div>Switch motor/transistor outputs</div><div>Guided + practice</div><div>Worksheet check</div></div>
                 <div class="sow-row"><div><strong>Lesson 2</strong></div><div>Sequenced Outputs</div><div>FSM & traffic light control</div><div>Guided + practical</div><div>Observation</div></div>
                 <div class="sow-row"><div><strong>Lesson 3</strong></div><div>PWM Outputs</div><div>Timers, PWM, analogue voltage, FETs</div><div>Discovery</div><div>Mini‑quiz</div></div>
